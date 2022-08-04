@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid/IDroid.otf') format('opentype');
+    font-weight: normal;
+}
+/* Variaveis globais em CSS*/
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: '--fonte-android', cursive;
+}
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+        main h1 {
+            font-family: var(--fonte-android);
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio adipisci tempore, aut enim aspernatur cupiditate est illum unde minima, incidunt quam qui aliquid alias, dolore vero ut earum! Eligendi, optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore itaque, cumque quo nesciunt ab, architecto harum sequi distinctio at doloribus fugit, iure iusto expedita repellat debitis! A, repellat quibusdam.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate suscipit consequuntur error quae corrupti odit laudantium optio quo perspiciatis nesciunt dignissimos ullam velit iste eum, exercitationem repudiandae sint nam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt numquam magnam perferendis nesciunt dicta eveniet quis! Ut dolore a ipsa, molestiae blanditiis quasi laboriosam dicta. Laudantium ipsa voluptatem dolorem saepe?</p>
+    </main>
+    
+</body>
+</html>
