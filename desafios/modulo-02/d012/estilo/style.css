@@ -71,7 +71,7 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.473);
+    box-shadow: inset 6px 6px 13px 1px  rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -79,7 +79,7 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.829);
     text-shadow: 1px 1px 0px black;
 }
 
