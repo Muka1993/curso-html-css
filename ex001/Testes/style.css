@@ -32,13 +32,15 @@ html, body {
   }
   
   main {
-    
     background: rgb(255, 255, 255);
     grid-column: 2/3;
-    grid-row: 2/9;  
+    grid-row: 2/9; 
+    
   }
 
-  main h1 {
+  main h1 p{
+    text-align: center;
+    text-indent: 20px;
     text-align: center;
   }
 
@@ -46,8 +48,17 @@ html, body {
     margin-top: 100px;
   }
 
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-indent: 20px;
+  }
+
   main p {
     text-indent: 20px;
+    text-align: center;
   }
   
   aside {
@@ -59,19 +70,46 @@ html, body {
 
   .pub1 {
     position: sticky;
-    top: 0px;
+    top: -1px;
+    background-color: aliceblue;
     text-indent: 10px;
     margin: 5px;
     text-align: center;
+    padding: 20px 0 20px 0;
+    box-shadow: 1px 1px 3px black;
   }
 
   .pub1 h2 p {
     width: 10%;
    
-
   }
 
   .pub1 img {
+    width: 200px;
+    border: 1px solid black;
+   
+  } 
+
+  .espace {
+    height: 350px;
+  }
+
+  .pub2 {
+    position: sticky;
+    top: 400px;
+    background-color: aquamarine;
+    text-indent: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .pub2 h2 p {
+    width: 10%;
+   
+
+  }
+
+  .pub2 img {
     width: 200px;
     border: 1px solid black;
    
@@ -80,7 +118,7 @@ html, body {
   footer {
     background: red;
     grid-column: 1/4;
-    grid-row: 9/9;
+    grid-row: 5/5;
   }
   
   .container {
