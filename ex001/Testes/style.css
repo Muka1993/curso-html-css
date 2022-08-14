@@ -57,6 +57,20 @@ html, body {
     
   }
 
+  .pub1 {
+    position: sticky;
+    top: 0px;
+    text-indent: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .pub1 h2 p {
+    width: 10%;
+   
+
+  }
+
   .pub1 img {
     width: 200px;
     border: 1px solid black;
