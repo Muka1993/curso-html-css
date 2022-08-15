@@ -6,6 +6,12 @@ html, body {
     box-sizing: border-box;
     background: #7159c1;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-rows: 10vh 20vh 40vh 20vh;
+  }
   
   header {
     background: yellow;
@@ -50,10 +56,13 @@ html, body {
 
   h1 {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   p {
     text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
   }
 
   main p {
@@ -96,16 +105,17 @@ html, body {
 
   .pub2 {
     position: sticky;
-    top: 400px;
+    top: 500px;
     background-color: aquamarine;
     text-indent: 10px;
     margin: 5px;
     text-align: center;
+    padding-bottom: 9px;
+    border: 1px solid #ddd;
   }
 
   .pub2 h2 p {
-    width: 10%;
-   
+    width: 10%;   
 
   }
 
@@ -115,14 +125,4 @@ html, body {
    
   } 
   
-  footer {
-    background: red;
-    grid-column: 1/4;
-    grid-row: 5/5;
-  }
   
-  .container {
-    display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-    grid-template-rows: 10vh 20vh 40vh 20vh;
-  }
