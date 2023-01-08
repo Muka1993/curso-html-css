@@ -26,6 +26,11 @@ Grandes telas: acima de 1200px
 
     main {
         border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita no site do Curso em Video';
     }
 
     main h1 {
