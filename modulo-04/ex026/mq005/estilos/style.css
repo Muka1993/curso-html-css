@@ -41,6 +41,24 @@ menu > ul > li > a:hover {
     background-color: gray;
 }
 
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: block;
+}
+
 main {
     width: 90vw;
     background-color: white;
